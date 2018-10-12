@@ -72,7 +72,7 @@ The checkPermissions function serves as *middleware* that is invoked before pass
 
 A final note: **order matters** when using middleware. If you place `app.use()` after a request handler, that middleware will not be invoked. Keep this in mind when developing your applications in case you encounter bugs. 
 
-If the concept of middleware is still confusing, you can read [this blog post](https://www.safaribooksonline.com/blog/2014/03/10/express-js-middleware-demystified/) for further information. 
+If the concept of middleware is still confusing, you can read the express documentation https://expressjs.com/en/guide/using-middleware.html and take a look at these blog posts [post #1)(https://medium.com/@agoiabeladeyemi/a-simple-explanation-of-express-middleware-c68ea839f498) and [post #2](https://medium.com/@jamischarles/what-is-middleware-a-simple-explanation-bb22d6b41d01)for further information. 
 
 ### Open Cage Data - Open Source Map & Geocoding API
 For this assignment, we will be using the Open Cage Data - Open Source Map & Geocoding API to retreive coordinates for each building we add to our database.
